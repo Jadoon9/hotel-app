@@ -1,4 +1,4 @@
-import React from 'react';
+import './bookings.styles.css';
 
 const Bookings = () => {
   return <div>Bookings</div>;

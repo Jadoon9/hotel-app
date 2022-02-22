@@ -1,4 +1,4 @@
-import React from 'react';
+import './aboutUs.styles.css';
 
 const AboutUs = () => {
   return <div>About Us</div>;

@@ -1,4 +1,4 @@
-import React from 'react';
+import './why-us.styles.css';
 
 const WhyUs = () => {
   return <div>WhyUs</div>;
