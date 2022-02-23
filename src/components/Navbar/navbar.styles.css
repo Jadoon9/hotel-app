@@ -1,0 +1,24 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 10vh;
+  position: sticky;
+}
+
+.logo {
+  width: 5rem;
+  height: 4rem;
+}
+
+.nav-items {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  max-width: 30%;
+  font-size: 1rem;
+}
+
+.nav-items a {
+  color: var(--title-color);
+}

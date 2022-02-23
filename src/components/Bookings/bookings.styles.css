@@ -1,0 +1,9 @@
+.bookings {
+  background-color: var(--main-color);
+  height: 115px;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  flex: 1;
+  justify-content: space-between;
+}
