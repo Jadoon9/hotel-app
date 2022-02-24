@@ -1,22 +1,22 @@
 import Navbar from './components/Navbar/Navbar';
 import Bookings from './components/Bookings/Bookings';
-import Hero from './components/Hero/Hero';
-import AboutUs from './components/AboutUs/AboutUs';
-import Services from './components/Services/Services';
-import WhyUs from './components/WhyUs/WhyUs';
-import ContactUs from './components/ContactUs/ContactUs';
+
 import Footer from './components/Footer/Footer';
+import Home from './pages/Home';
+import { Route, Routes } from 'react-router';
+import CheckRooms from './pages/CheckRooms';
+import SelectRoom from './pages/SelectRoom';
 
 const App = () => {
   return (
     <>
       <Navbar />
       <Bookings />
-      <Hero />
-      <AboutUs />
-      <Services />
-      <WhyUs />
-      <ContactUs />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/check-rooms' element={<CheckRooms />} />
+        <Route path='/select-room' element={<SelectRoom />} />
+      </Routes>
       <Footer />
     </>
   );

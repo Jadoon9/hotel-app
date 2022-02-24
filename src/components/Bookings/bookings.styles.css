@@ -1,9 +1,37 @@
 .bookings {
   background-color: var(--main-color);
+}
+
+.bookings-container {
   height: 115px;
   opacity: 1;
   display: flex;
-  align-items: center;
   flex: 1;
   justify-content: space-between;
+  align-items: center;
+  max-width: 90%;
+}
+
+.booking-btn {
+  background-color: black;
+  color: #fff;
+  padding: 1rem 3rem;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  display: flex;
+}
+
+.modify-booking {
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+.book-now {
+  position: relative;
+}
+
+.booking-icon {
+  width: 223px;
+  height: 92px;
 }

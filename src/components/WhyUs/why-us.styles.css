@@ -1,0 +1,34 @@
+.why-us {
+  background-color: var(--bg-color-light);
+  min-width: 90vw;
+}
+
+.why-us-content {
+  display: flex;
+  justify-content: space-around;
+  min-width: 60%;
+}
+/* 
+.why-us-left {
+  position: relative;
+  margin-left: -20rem;
+} */
+
+.why-us-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pair1 {
+  display: flex;
+}
+
+.pair2 {
+  display: flex;
+}
+
+.img2 {
+  margin-top: 2rem;
+  width: 100%;
+}

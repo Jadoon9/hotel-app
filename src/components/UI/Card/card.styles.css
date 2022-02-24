@@ -1,6 +1,32 @@
 .card {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  max-width: 15rem;
+  padding: 2rem 0;
+}
+
+.card_content {
+  padding: 0 0.5rem;
+  text-align: center;
+}
+
+.card_name {
+  color: var(--main-color-light);
+
+  letter-spacing: 1.92px;
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+
+.card_title {
+  color: var(--title-color);
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.card_description {
+  text-align: left;
+  color: var(--para-color);
+  font-size: 1rem;
+  max-width: 95%;
 }

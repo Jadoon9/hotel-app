@@ -1,1 +1,9 @@
-
+.about {
+  background: transparent
+    url('/src/assets/homepageassets/Component\ 35\ –\ 1.png') 0% 0% no-repeat
+    padding-box;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 1;
+}

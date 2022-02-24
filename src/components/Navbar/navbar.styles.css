@@ -3,7 +3,6 @@
   justify-content: space-between;
   align-items: center;
   min-height: 10vh;
-  position: sticky;
 }
 
 .logo {
@@ -21,4 +20,11 @@
 
 .nav-items a {
   color: var(--title-color);
+  border-right: 0.2px solid var(--para-color);
+  padding: 0rem 2rem;
+}
+
+.nav-items a:hover {
+  color: var(--main-color);
+  transition: color 0.8sec ease;
 }

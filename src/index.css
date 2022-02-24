@@ -5,7 +5,7 @@
   --font-family-main: 'Lato', sans-serif;
 
   --fw-bold: 700;
-  --fw-bold: 400;
+  --fw-light: 400;
 
   --fs-14: 0.8rem;
   --fs-16: 1rem;
@@ -53,10 +53,21 @@ li {
   list-style: none;
 }
 
+img {
+  width: 100%;
+}
+
+/* Hide Calendar Icon In Chrome */
+input[type='date']::-webkit-inner-spin-button,
+input[type='date']::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}
 /** =============================== Custom Classes  ===============================*/
 
 .section {
-  padding: 3rem 3rem;
+  padding: 6rem 3rem;
+  margin: 3rem 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -64,7 +75,7 @@ li {
 }
 
 .section-title {
-  margin: 3rem 0;
+  margin: 0rem 0rem 3rem 0rem;
   font-size: 40px;
   color: var(--title-color);
 }

@@ -1,0 +1,33 @@
+.services {
+  background-color: var(--bg-color-light);
+}
+
+.cards {
+  display: flex;
+  /* flex: 1; */
+  justify-content: space-between;
+  min-width: 60%;
+}
+
+.services-btn {
+  padding: 0.8rem 2.5rem;
+  border: 1px solid var(--main-color-light);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--main-color-light);
+  border-radius: 4px;
+  font-size: 1.2rem;
+}
+
+.btn-group {
+  position: relative;
+}
+
+.btn-down {
+  width: 20px;
+  height: 10px;
+  position: absolute;
+  top: 40%;
+  right: 10%;
+}
