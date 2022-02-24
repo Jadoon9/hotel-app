@@ -3,6 +3,9 @@
   justify-content: space-between;
   align-items: center;
   min-height: 10vh;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
 }
 
 .logo {
@@ -10,17 +13,25 @@
   height: 4rem;
 }
 
+.nav {
+  position: absolute;
+  right: 10%;
+}
+
 .nav-items {
   display: flex;
   flex: 1;
   justify-content: space-between;
-  max-width: 30%;
+  align-items: center;
+  min-width: 100%;
   font-size: 1rem;
+  /* position: sticky;
+  top: 0; */
 }
 
 .nav-items a {
   color: var(--title-color);
-  border-right: 0.2px solid var(--para-color);
+  border-right: 0.2px solid #e6e6e6;
   padding: 0rem 2rem;
 }
 

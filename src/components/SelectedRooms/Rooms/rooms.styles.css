@@ -24,3 +24,8 @@
   color: #e6e6e6;
   margin-right: 0.4rem;
 }
+
+.rooms-selected-page {
+  color: #fff;
+  background-color: var(--main-color-light);
+}

@@ -7,7 +7,7 @@ import downArrow from '../../assets/homepageassets/Icon feather-chevron-down.svg
 
 const Services = () => {
   return (
-    <div className='section services'>
+    <div className='section services' id='services'>
       <h1 className='section-title'>Our Services</h1>
       <p className='section-description'>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro tenetur,
@@ -36,7 +36,7 @@ const Services = () => {
       </div>
       <div className='btn-group'>
         <button className='services-btn'>See All</button>
-        <img className='btn-down' src={downArrow} alt='' />
+        {/* <img className='btn-down' src={downArrow} alt='' /> */}
       </div>
     </div>
   );

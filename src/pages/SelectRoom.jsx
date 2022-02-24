@@ -1,7 +1,11 @@
-import React from 'react';
+import RoomsData from '../components/SelectedRooms/RoomsData';
 
 const SelectRoom = () => {
-  return <div>SelectRoom</div>;
+  return (
+    <div>
+      <RoomsData />
+    </div>
+  );
 };
 
 export default SelectRoom;

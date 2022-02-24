@@ -50,9 +50,9 @@ const Bookings = () => {
           </a>
         </div>
       </div>
-      <div className='book-now'>
-        {/* <img className='booking-icon' src={bookingIcon} alt='' /> */}
-      </div>
+      {/* <div className='book-now'>
+        <img className='booking-icon' src={bookingIcon} alt='' />
+      </div> */}
     </>
   );
 };

@@ -1,4 +1,4 @@
-import './rooms-data-styles.css';
+import './rooms-data.styles.css';
 import YourData from './YourData/YourData';
 import Rooms from './Rooms/Rooms';
 

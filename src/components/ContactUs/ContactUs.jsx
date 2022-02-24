@@ -10,7 +10,7 @@ const ContactUs = () => {
     setName(e.target.value);
   };
   return (
-    <div className='section container contact'>
+    <div className='section container contact' id='contact'>
       <h1 className='section-title'>Get In Touch</h1>
 
       <div className='section-container'>

@@ -1,25 +1,25 @@
 .input-group {
   display: flex;
   flex-direction: column;
-  position: relative;
 }
 
 .label {
-  margin-bottom: 0.8rem;
-  color: #fff;
+  margin-bottom: 0.6rem;
+  color: var(--title-color);
+  font-weight: var(--fw-bold);
 }
 
 .input {
-  max-width: 180px;
+  min-width: 180px;
   border: 1px solid #e6e6e6;
   height: 42px;
-  border: none;
   border-radius: 4px;
   opacity: 1;
   outline: none;
-  padding: 0.5rem 2rem;
+  padding: 0.5rem 1rem;
   font-size: 1rem;
   font-family: var(--font-family-main);
+  margin-bottom: 0.6rem;
 }
 
 .input-icon {
@@ -27,5 +27,9 @@
   height: 26px;
   position: absolute;
   right: 5%;
-  top: 55%;
+  top: 15%;
+}
+
+.input-group-icon {
+  position: relative;
 }

@@ -1,5 +1,7 @@
 .bookings {
   background-color: var(--main-color);
+  position: sticky;
+  top: 10vh;
 }
 
 .bookings-container {
@@ -34,4 +36,7 @@
 .booking-icon {
   width: 223px;
   height: 92px;
+  position: absolute;
+  right: 0;
+  top: -8.2rem;
 }
