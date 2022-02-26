@@ -95,7 +95,7 @@ const Bookings = () => {
               </a>
             </div>
             <div className='book-now'>
-              <button onClick={bookNowHandler} className='book-now-btn'>
+              <button className='book-now-btn'>
                 <img className='booking-icon' src={bookingIcon} alt='' />
                 <h2 className='book-now-text'>Book Now!</h2>
               </button>

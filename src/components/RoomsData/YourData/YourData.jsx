@@ -28,9 +28,13 @@ const YourData = () => {
     setChildren(e.target.value);
   };
 
+  const formSubmitHandler = (e) => {
+    e.preventDefault();
+  };
+
   return (
     <div className='your-data'>
-      <form>
+      <form onSubmit={formSubmitHandler}>
         <Input
           label='Check In'
           handleChange={checkInHandler}
@@ -57,7 +61,9 @@ const YourData = () => {
           value={children}
         />
 
-        <button className='rates-btn'>Check Rates</button>
+        <button type='submit' className='rates-btn'>
+          Check Rates
+        </button>
       </form>
     </div>
   );

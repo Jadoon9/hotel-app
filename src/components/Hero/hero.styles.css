@@ -7,8 +7,9 @@
   background-repeat: no-repeat;
   opacity: 1;
   display: flex;
-  position: relative;
+  /* position: relative; */
 }
+
 .bg-clip {
   background: #ffffff 0% 0% no-repeat border-box;
   opacity: 0.2;
@@ -16,6 +17,7 @@
   -webkit-clip-path: polygon(100% 30%, 100% 100%, 0 100%, 0 0);
   clip-path: polygon(100% 30%, 100% 100%, 0 100%, 0 0);
   /* z-index: 1; */
+  position: relative;
 }
 
 .left-content {
@@ -23,10 +25,12 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  color: white;
-  z-index: 10;
+  color: #fff;
+  position: absolute;
+  top: 30rem;
+  /* z-index: 10; */
   opacity: 1;
-  padding: 8rem;
+  padding: 0 8rem;
 }
 
 .left-content h3 {
@@ -35,6 +39,7 @@
 }
 
 .left-content h1 {
+  font-family: var(--font-family-hero);
   font-size: 4rem;
   text-transform: uppercase;
 }

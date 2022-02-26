@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 :root {
   /** =============================== FONTS  ===============================*/
   --font-family-main: 'Lato', sans-serif;
-
+  --font-family-hero: 'Montserrat', sans-serif;
   --fw-bold: 700;
   --fw-light: 400;
 
