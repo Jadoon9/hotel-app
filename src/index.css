@@ -94,6 +94,13 @@ input[type='date']::-webkit-calendar-picker-indicator {
   padding-inline: 8rem;
 }
 
+.section-title-after::after {
+  position: absolute;
+  content: '';
+  height: 2px;
+  bottom: -4px;
+}
+
 body {
   font-family: var(--font-family-main);
   font-size: 16px;

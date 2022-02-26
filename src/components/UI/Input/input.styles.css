@@ -10,9 +10,9 @@
 }
 
 .input {
-  min-width: 180px;
+  min-width: 11.25rem;
   border: 1px solid #e6e6e6;
-  height: 42px;
+  height: 2.65rem;
   border-radius: 4px;
   opacity: 1;
   outline: none;
@@ -23,8 +23,8 @@
 }
 
 .input-icon {
-  width: 23px;
-  height: 26px;
+  width: 1.43rem;
+  height: 1.62rem;
   position: absolute;
   right: 5%;
   top: 15%;
@@ -32,4 +32,10 @@
 
 .input-group-icon {
   position: relative;
+}
+
+.booking-label-color {
+  color: #fff;
+  margin-bottom: 0.6rem;
+  font-weight: var(--fw-bold);
 }

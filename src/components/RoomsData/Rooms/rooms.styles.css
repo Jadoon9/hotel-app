@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: flex-start;
   margin-inline: auto;
+  min-height: 80vh;
 }
 
 .rooms {
@@ -13,7 +14,7 @@
 
 .selected-rooms {
   margin-left: 3rem;
-  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 .rooms-selected {
@@ -23,4 +24,30 @@
 .room-selected-text {
   color: #e6e6e6;
   margin-right: 0.4rem;
+}
+
+/** Selected room Path  */
+
+.selected-rooms-amount {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 3rem;
+}
+
+.selected-rooms-confirm-booking {
+  padding: 1rem 2rem;
+  border: none;
+  outline: none;
+  background-color: var(--main-color-light);
+  color: #fff;
+  border-radius: 4px;
+  margin-block: 1rem;
+}
+
+.room-rent {
+  color: var(--main-color-light);
+  font-size: 1.2rem;
+  margin-left: 0.3rem;
 }

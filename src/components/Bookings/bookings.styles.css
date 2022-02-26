@@ -1,11 +1,12 @@
 .bookings {
   background-color: var(--main-color);
-  position: sticky;
+  position: fixed;
+  width: 100vw;
   top: 10vh;
 }
 
 .bookings-container {
-  height: 115px;
+  height: 7.18rem;
   opacity: 1;
   display: flex;
   flex: 1;
@@ -32,11 +33,21 @@
 .book-now {
   position: relative;
 }
-
+.book-now-btn {
+  cursor: pointer;
+}
 .booking-icon {
-  width: 223px;
-  height: 92px;
+  width: 13.93rem;
+  height: 5.75rem;
   position: absolute;
-  right: 0;
+  right: -8rem;
   top: -8.2rem;
+}
+
+.book-now-text {
+  color: var(--main-color);
+  position: absolute;
+  top: -6.2rem;
+  right: -4.5rem;
+  font-weight: var(--fw-light);
 }

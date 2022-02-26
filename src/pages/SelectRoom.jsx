@@ -1,4 +1,4 @@
-import RoomsData from '../components/SelectedRooms/RoomsData';
+import RoomsData from '../components/RoomsData/RoomsData';
 
 const SelectRoom = () => {
   return (

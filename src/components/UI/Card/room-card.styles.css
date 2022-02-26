@@ -6,7 +6,7 @@
   max-width: 299px;
   display: flex;
   flex-direction: column;
-  margin-inline: 3rem;
+  margin: 2rem 3rem;
 }
 
 .room-card-image {
@@ -103,18 +103,32 @@
   font-size: 1rem;
 }
 
+.check-rooms {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--main-color-light);
+}
+
 .select-rooms {
   display: flex;
   justify-content: space-between;
-  color: var(--main-color-light);
+  align-items: center;
+  /* color: #fff; */
+  /* background-color: var(--main-color-light); */
 }
 
 .rooms-count {
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
 .rooms-count img {
   margin-left: 0.3rem;
   cursor: pointer;
+}
+
+.rooms-count p {
+  margin-left: 0.6rem;
 }

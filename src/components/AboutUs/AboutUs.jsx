@@ -4,7 +4,7 @@ import Slider from '../UI/Slider/Slider';
 const AboutUs = () => {
   return (
     <div className='section about' id='about'>
-      <h1 className=' section-title'>Our Hotel</h1>
+      <h1 className=' section-title section-title-after'>Our Hotel</h1>
       <p className='section-description'>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, cumque.
         Optio labore natus dolore illo dolor quasi laudantium commodi? Molestias

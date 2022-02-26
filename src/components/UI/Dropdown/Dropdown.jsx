@@ -1,9 +1,12 @@
 import './dropdown.styles.css';
 
-const Dropdown = ({ label, handleClick }) => {
+const Dropdown = ({ label, handleClick, bookings }) => {
   return (
     <div className='drp-group'>
-      <label htmlFor='dropdown' className='label'>
+      <label
+        htmlFor='dropdown'
+        className={`${bookings ? ' booking-label-color' : 'label'}`}
+      >
         {label}
       </label>
       <select className='dropdown' id='dropdown' onChange={handleClick}>

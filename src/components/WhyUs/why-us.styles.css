@@ -1,6 +1,6 @@
 .why-us {
   background-color: var(--bg-color-light);
-  min-width: 90vw;
+  /* min-width: 90vw; */
 }
 
 .why-us-content {
@@ -8,6 +8,7 @@
   justify-content: space-around;
   min-width: 60%;
 }
+
 /* 
 .why-us-left {
   position: relative;

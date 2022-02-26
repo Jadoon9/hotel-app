@@ -1,4 +1,5 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
+import img1 from '../../../assets/homepageassets/nick-karvounis-Ciqxn7FE4vE-unsplash-1.png';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -9,6 +10,27 @@ import 'swiper/css/pagination';
 import { EffectCoverflow, Pagination } from 'swiper';
 
 import './slider.styles.css';
+
+const swiperData = [
+  {
+    id: 1,
+    image: img1,
+    description1: 'Charming Small Town',
+    description2: 'Charming Small Town',
+  },
+  {
+    id: 1,
+    image: img1,
+    description1: 'Charming Small Town',
+    description2: 'Charming Small Town',
+  },
+  {
+    id: 1,
+    image: img1,
+    description1: 'Charming Small Town',
+    description2: 'Charming Small Town',
+  },
+];
 
 const Slider = () => {
   return (
@@ -27,8 +49,16 @@ const Slider = () => {
         }}
         pagination={true}
         modules={[EffectCoverflow, Pagination]}
-        className='mySwiper'
-      ></Swiper>
+        className='swiper'
+      >
+        {swiperData.map((item) => (
+          <SwiperSlide className='swiper-slide'>
+            <img src={item.image} />
+            <p className='swiper-description1'>{item.description1}</p>
+            <p className='swiper-description2'>{item.description2}</p>
+          </SwiperSlide>
+        ))}
+      </Swiper>
     </div>
   );
 };
