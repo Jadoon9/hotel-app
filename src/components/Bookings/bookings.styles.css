@@ -29,19 +29,22 @@
 .modify-booking {
   color: #fff;
   font-size: 1.3rem;
+  border-bottom: 1px solid #fff;
 }
 
 .book-now {
   position: relative;
 }
+
 .book-now-btn {
   cursor: pointer;
 }
+
 .booking-icon {
   width: 13.93rem;
   height: 5.75rem;
   position: absolute;
-  right: -8rem;
+  right: -9rem;
   top: -8.2rem;
 }
 

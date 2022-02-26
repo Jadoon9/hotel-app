@@ -8,8 +8,6 @@
   opacity: 1;
 }
 
-.title-after::after {
-  content: '';
-  height: 1px;
-  position: absolute;
+.section-heading {
+  position: relative;
 }

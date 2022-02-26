@@ -17,7 +17,7 @@ import icon5 from '../../assets/homepageassets/Icon metro-language-1.svg';
 const WhyUs = () => {
   return (
     <div className='section container why-us'>
-      <h1 className='section-title'>WHY US?</h1>
+      <h1 className='section-title why-us-title'>WHY US?</h1>
 
       <div className='why-us-content'>
         <div>

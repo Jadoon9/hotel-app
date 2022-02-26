@@ -8,7 +8,9 @@ import downArrow from '../../assets/homepageassets/Icon feather-chevron-down.svg
 const Services = () => {
   return (
     <div className='section services' id='services'>
-      <h1 className='section-title'>Our Services</h1>
+      <div className='section-heading'>
+        <h1 className='section-title section-title-after'>Our Services</h1>
+      </div>
       <p className='section-description'>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro tenetur,
         fugiat nisi sed architecto ad quos ut, ipsa odit cum, voluptate

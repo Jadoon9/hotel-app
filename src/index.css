@@ -95,10 +95,13 @@ input[type='date']::-webkit-calendar-picker-indicator {
 }
 
 .section-title-after::after {
-  position: absolute;
   content: '';
+  position: absolute;
+  background-color: var(--main-color);
+  left: 50%;
+  bottom: 40%;
+  width: 50%;
   height: 2px;
-  bottom: -4px;
 }
 
 body {

@@ -94,14 +94,14 @@ const Bookings = () => {
                 Modify Booking
               </a>
             </div>
+            <div className='book-now'>
+              <button onClick={bookNowHandler} className='book-now-btn'>
+                <img className='booking-icon' src={bookingIcon} alt='' />
+                <h2 className='book-now-text'>Book Now!</h2>
+              </button>
+            </div>
           </form>
         )}
-        <div className='book-now' onClick={bookNowHandler}>
-          <button type='submit' className='book-now-btn'>
-            <img className='booking-icon' src={bookingIcon} alt='' />
-            <h2 className='book-now-text'>Book Now</h2>
-          </button>
-        </div>
       </div>
     </>
   );

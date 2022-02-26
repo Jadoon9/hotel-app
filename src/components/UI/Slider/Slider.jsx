@@ -19,13 +19,13 @@ const swiperData = [
     description2: 'Charming Small Town',
   },
   {
-    id: 1,
+    id: 2,
     image: img1,
     description1: 'Charming Small Town',
     description2: 'Charming Small Town',
   },
   {
-    id: 1,
+    id: 3,
     image: img1,
     description1: 'Charming Small Town',
     description2: 'Charming Small Town',
@@ -52,7 +52,7 @@ const Slider = () => {
         className='swiper'
       >
         {swiperData.map((item) => (
-          <SwiperSlide className='swiper-slide'>
+          <SwiperSlide className='swiper-slide' key={item.id}>
             <img src={item.image} />
             <p className='swiper-description1'>{item.description1}</p>
             <p className='swiper-description2'>{item.description2}</p>

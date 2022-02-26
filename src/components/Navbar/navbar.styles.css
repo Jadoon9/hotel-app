@@ -9,6 +9,10 @@
   z-index: 10;
 }
 
+.navbar-logo {
+  position: relative;
+}
+
 .logo {
   width: 5rem;
   height: 4rem;
