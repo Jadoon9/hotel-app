@@ -4,6 +4,33 @@ import './rooms.styles.css';
 
 import roomImage from '../../../assets/page3assets/paul-postema-mr0Dp231IEw-unsplash-1.png';
 
+const ROOMS_DATA = [
+  {
+    id: 1,
+    image: roomImage,
+    text: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit',
+    title: 'Simple Room',
+    person: '2',
+    price: '2000',
+  },
+  {
+    id: 2,
+    image: roomImage,
+    text: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit',
+    title: 'Delux Room',
+    person: '4',
+    price: '2000',
+  },
+  {
+    id: 3,
+    image: roomImage,
+    text: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit',
+    title: 'Luxury Room',
+    person: '6',
+    price: '2000',
+  },
+];
+
 const Rooms = () => {
   const location = useLocation();
   return (
@@ -31,27 +58,19 @@ const Rooms = () => {
       )}
 
       <div className='rooms'>
-        <RoomCard
-          image={roomImage}
-          price='2,000'
-          text=' Lorem ipsum dolor, sit amet consectetur adipisicing elit.'
-          title='Simple Room'
-          person='2'
-        />
-        <RoomCard
-          image={roomImage}
-          price='2,000'
-          text=' Lorem ipsum dolor, sit amet consectetur adipisicing elit.'
-          title='Delux Room'
-          person='4'
-        />
-        <RoomCard
-          image={roomImage}
-          price='2,000'
-          text=' Lorem ipsum dolor, sit amet consectetur adipisicing elit.'
-          title='Luxury Room'
-          person='6'
-        />
+        {ROOMS_DATA.map((room) => (
+          <div key={room.id}>
+            <RoomCard
+              id={room.id}
+              image={room.image}
+              price={room.price}
+              text={room.text}
+              price={room.price}
+              title={room.title}
+              person={room.person}
+            />
+          </div>
+        ))}
       </div>
     </div>
   );

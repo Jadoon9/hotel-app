@@ -8,7 +8,7 @@ import addIcon from '../../../assets/page2assets/Group 797.svg';
 import minusIcon from '../../../assets/page3assets/Group 802.svg';
 import { Link } from 'react-router-dom';
 
-const RoomCard = ({ image, price, text, title, person }) => {
+const RoomCard = ({ id, image, price, text, title, person }) => {
   const location = useLocation();
   return (
     <div className='room-card'>
